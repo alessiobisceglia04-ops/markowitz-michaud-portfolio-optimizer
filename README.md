@@ -202,10 +202,7 @@ It does not constitute investment advice, financial advice or a recommendation t
 Portfolio optimization results depend on assumptions, historical data and estimated returns. Actual investment results may differ significantly.
 
 Author
-
-Stefano Lai
-
-MSc in International Food & Beverage Management Student at ESCP Business School
+Alessio Bisceglia
 
 License
 
