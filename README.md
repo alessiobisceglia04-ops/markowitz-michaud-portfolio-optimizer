@@ -39,43 +39,7 @@ Technologies Used
 * matplotlib
 * CustomTkinter
 
-Project Structure
 
-markowitz-michaud-portfolio-optimizer/
-├── app.py
-├── optimizer.py
-├── requirements.txt
-├── README.md
-├── .gitignore
-├── LICENSE
-├── screenshots/
-└── sample_data/
-
-app.py
-
-Contains the graphical user interface and allows the user to:
-
-* select an Excel workbook;
-* start the optimization;
-* monitor the execution;
-* save the generated results.
-
-optimizer.py
-
-Contains the financial calculations, including:
-
-* expected returns;
-* covariance matrix calculation;
-* Markowitz optimization;
-* efficient frontier generation;
-* Michaud resampling;
-* Excel export.
-
-sample_data/
-
-This folder will contain a compatible sample Excel template.
-
-The Excel template is currently being redesigned and will be added in a future update.
 
 Requirements
 
@@ -87,14 +51,19 @@ requirements.txt
 
 Installation
 
-Run the application
+## Run on macOS
 
-Download the repository as a ZIP file and open the extracted folder in Terminal.
+Download the repository as a ZIP file and extract it on the Desktop.
 
-Then run:
+Open Terminal and run these two commands separately:
 
-python3 -m pip install customtkinter numpy pandas scipy openpyxl matplotlib
+```bash
+cd ~/Desktop/"Ottimizzatore app"
+```
+
+```bash
 python3 app1.py
+```
 
 Current Limitations
 
