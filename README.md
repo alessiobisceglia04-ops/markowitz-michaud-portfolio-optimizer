@@ -53,7 +53,7 @@ Installation
 
 ## Run on macOS
 
-Download the repository as a ZIP file and extract it on the Desktop.
+Download the repository as a ZIP file and extract it on the Desktop, NAME THE FILE "Ottimizzatore app"!!!!!!.
 
 Open Terminal and run these two commands separately:
 
