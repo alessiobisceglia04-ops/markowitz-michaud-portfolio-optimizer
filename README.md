@@ -87,91 +87,14 @@ requirements.txt
 
 Installation
 
-1. Clone the repository
+Run the application
 
-Open the Terminal and run:
+Download the repository as a ZIP file and open the extracted folder in Terminal.
 
-git clone https://github.com/YOUR-USERNAME/markowitz-michaud-portfolio-optimizer.git
+Then run:
 
-Replace YOUR-USERNAME with your GitHub username.
-
-2. Enter the project folder
-
-cd markowitz-michaud-portfolio-optimizer
-
-3. Create a virtual environment
-
-On macOS or Linux:
-
-python3 -m venv .venv
-source .venv/bin/activate
-
-On Windows:
-
-python -m venv .venv
-.venv\Scripts\activate
-
-4. Install the required libraries
-
-pip install -r requirements.txt
-
-Running the Application
-
-Start the desktop interface with:
-
-python3 app.py
-
-On some systems, the command may be:
-
-python app.py
-
-The application window should open automatically.
-
-Excel Input File
-
-The optimizer requires an Excel workbook with a predefined structure.
-
-The workbook includes sections for:
-
-* historical asset values;
-* expected returns;
-* portfolio results;
-* Michaud resampling results.
-
-The sample workbook is being independently redesigned and will be included in a future release.
-
-The original institutional workbook is not included in this repository.
-
-Methodology
-
-Markowitz Optimization
-
-The application uses mean-variance optimization to identify portfolios that minimize risk for different target returns.
-
-Portfolio variance is calculated as:
-
-Portfolio Variance = wᵀΣw
-
-where:
-
-* w is the vector of portfolio weights;
-* Σ is the variance-covariance matrix.
-
-The resulting portfolios form the efficient frontier.
-
-Michaud Resampling
-
-Michaud resampling is used to reduce the sensitivity of traditional Markowitz optimization to estimation errors.
-
-The application:
-
-1. generates multiple simulated return scenarios;
-2. performs portfolio optimization for each simulation;
-3. calculates the efficient portfolios;
-4. averages the optimized portfolio weights;
-5. produces a more diversified resampled efficient frontier.
-
-The default implementation runs 500 simulations.
+python3 -m pip install customtkinter numpy pandas scipy openpyxl matplotlib
+python3 app1.py
 
 Current Limitations
 
